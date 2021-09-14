@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS public.catchphrase
 (
     name character varying NOT NULL,
     phrase character varying NOT NULL,
+    mood character varying NOT NULL,
     CONSTRAINT catchphrase_pkey PRIMARY KEY (name, phrase),
     CONSTRAINT catchphrase_persona_fk FOREIGN KEY (name)
         REFERENCES public.persona (name) MATCH SIMPLE
