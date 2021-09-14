@@ -73,8 +73,6 @@ public class PersonaController extends Controller {
 
 			return this.find_catchphrases(persona);
 		} catch (SQLException e) {
-			System.err.println(sql);
-
 			e.printStackTrace();
 		}
 		return null;
