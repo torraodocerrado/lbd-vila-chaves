@@ -21,7 +21,6 @@ public class Catchphrase {
 	}
 
 	public Catchphrase(String phrase, String mood) {
-		super();
 		this.phrase = phrase;
 		this.mood = mood;
 	}

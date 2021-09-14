@@ -1,9 +1,5 @@
 package controllers;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
-
 import dao.DBConnection;
 
 public abstract class Controller {
